@@ -78,14 +78,10 @@ export default function FeaturesSection() {
                 initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6 }}
-                className={`flex flex-col gap-y-4 p-8 bg-white border shadow-md rounded-xl w-5/12  ${
-                  index % 2 === 0
-                    ? "border-l-8 border-l-accent"
-                    : "border-r-8 border-r-accent"
-                }`}
+                className="flex flex-col p-8 bg-white border shadow-md rounded-xl lg:w-5/11 "
               >
-                <div className="flex items-center justify-center h-12">
-                  <h3 className="text-xl font-semibold text-center text-darkGreen">
+                <div className="flex items-center justify-center h-fit">
+                  <h3 className=" text-lg lg:text-xl font-semibold text-center text-darkGreen">
                     {item.title}
                   </h3>
                 </div>
@@ -101,7 +97,10 @@ export default function FeaturesSection() {
         </h3>
         <div className="flex flex-wrap mt-3 gap-5 justify-center">
           {integragionsList.map((item, index) => (
-            <IntegrationsTile key={index} icon={item.iconPath}>
+            <IntegrationsTile
+              key={index}
+              icon={item.iconPath}
+            >
               {item.name}
             </IntegrationsTile>
           ))}
