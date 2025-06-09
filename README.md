@@ -64,4 +64,4 @@ Design and layout are custom-made to showcase LMS (Learning Management System) s
 ## 🧑‍💻 Author
 
 
-Designed and developed by **Ilya** as a practice project.
+Designed and developed by **Ilya** and **Yevheniy** as a practice project.
