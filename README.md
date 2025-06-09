@@ -1,50 +1,67 @@
-# React + TypeScript + Vite
+# LMS Landing Page – Repetilum
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and modern landing page project built with **React**, **Vite**, and **Tailwind CSS**.  
+Design and layout are custom-made to showcase LMS (Learning Management System) services.
 
-Currently, two official plugins are available:
+## 🚀 Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Client
 
-## Expanding the ESLint configuration
+- **React 18**
+- **TypeScript**
+- **Vite**
+- **Tailwind CSS**
+- **React Icons**
+- **React Burger Menu**
+- **React Intersection Observer**
+- **Motion**
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Development Tools
 
-- Configure the top-level `parserOptions` property like this:
+- **ESLint**
+- **TypeScript ESLint**
+- **PostCSS**
+- **Autoprefixer**
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 📦 Installation
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+1. **Clone the repository**:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+   ```bash
+   git clone https://github.com/your-username/lms-landing.git
+   cd lms-landing
+   ```
+
+2. **Install dependencies**:
+
+   ```bash
+   npm install
+   ```
+
+3. **Run development server**:
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**:
+
+   ```bash
+   npm run build
+   ```
+
+5. **Preview production build**:
+   ```bash
+   npm run preview
+   ```
+
+---
+
+![аа](https://github.com/user-attachments/assets/aa5c741f-7094-4e8c-a833-1319836f878f)
+
+## 🧑‍💻 Author
+
+
+Designed and developed by **Ilya** as a practice project.
