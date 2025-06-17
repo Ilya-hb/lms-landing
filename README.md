@@ -12,7 +12,6 @@ Design and layout are custom-made to showcase LMS (Learning Management System) s
 - **Vite**
 - **Tailwind CSS**
 - **React Icons**
-- **React Burger Menu**
 - **React Intersection Observer**
 - **Motion**
 
